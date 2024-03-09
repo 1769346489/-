@@ -1,0 +1,9 @@
+#!name=IP4P
+#!desc=
+
+[Script]
+
+IP4P-Request = type=http-request, pattern=https?:\/\/ip4p\.xxxxxxxxxxxxx\.com, script-path=IP4P.js
+
+[MITM]
+hostname = %APPEND% ip4p.xxxxxxxxxxxxx.com
