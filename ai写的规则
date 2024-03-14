@@ -1,0 +1,13 @@
+DOMAIN-SUFFIX,cdn-apple.com,PROXY
+DOMAIN-SUFFIX,mzstatic.com,PROXY // App Store & iTunes Images
+DOMAIN-SUFFIX,aaplimg.com,PROXY
+DOMAIN-SUFFIX,apple.co,PROXY
+DOMAIN-SUFFIX,apple.com,PROXY
+DOMAIN-SUFFIX,icloud-content.com,PROXY
+DOMAIN-SUFFIX,icloud.com,PROXY
+DOMAIN-SUFFIX,itunes.com,PROXY
+DOMAIN-SUFFIX,itunes.apple.com,PROXY
+DOMAIN-SUFFIX,lookup-api.apple.com,PROXY // Dictionary
+DOMAIN-SUFFIX,me.com,PROXY
+PROCESS-NAME,storedownloadd,PROXY // Mac App Store
+USER-AGENT,com.apple.appstored*,PROXY // iOS App Store
