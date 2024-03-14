@@ -1,0 +1,36 @@
+[MITM]
+# 启用混淆模式
+enable = true
+
+# 混淆模式配置
+[MITM]
+# 混淆模式开关
+enable = true
+
+# 随机生成 User-Agent 头
+user-agent = random
+
+# 随机生成 Referer 头
+referer = random
+
+# 随机生成请求路径的一部分
+path = random
+
+# 随机生成请求参数的一部分
+param = random
+
+# 随机生成请求头的一部分
+header = random
+
+# 随机生成响应头的一部分
+response-header = random
+
+# 混淆图片加载请求
+# 如果希望加速，请设置为 false
+# 默认值：true
+image = true
+
+# 混淆视频加载请求
+# 如果希望加速，请设置为 false
+# 默认值：true
+video = true
